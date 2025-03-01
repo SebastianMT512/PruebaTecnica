@@ -9,13 +9,13 @@ Permite gestionar monedas y tasas de cambio mediante una API RESTful.
 
 ## 🛠️ Stack Tecnológico
 
-   **Backend:** Django 5 + Django Rest Framework  
-   **Base de Datos:** PostgreSQL  
-   **Documentación API:** DRF Spectacular (Swagger & ReDoc)  
-   **Autenticación:** Django Default Auth  
-   **Entorno Virtual:** Python `venv`  
-   **ORM:** Django ORM  
-   **Pruebas:** `unittest` con `APITestCase`
+**Backend:** Django 5 + Django Rest Framework  
+ **Base de Datos:** PostgreSQL  
+ **Documentación API:** DRF Spectacular (Swagger & ReDoc)  
+ **Autenticación:** Django Default Auth  
+ **Entorno Virtual:** Python `venv`  
+ **ORM:** Django ORM  
+ **Pruebas:** `unittest` con `APITestCase`
 
 ---
 
@@ -23,18 +23,18 @@ Permite gestionar monedas y tasas de cambio mediante una API RESTful.
 
 prueba_tecnica/
 │── env/ # Entorno virtual
-│── prueba_tecnica/ # Configuración principal de Django │
-├── settings.py # Configuración global del proyecto │
-├── urls.py # Enrutamiento principal │
-├── wsgi.py # Servidor WSGI │
-├── asgi.py # Servidor ASGI |
-│── conversion/ # Aplicación principal │
-├── migrations/ # Migraciones de base de datos │
-├── serializer.py # Serializadores DRF │
-├── urls.py # Rutas de la API │
-├── views.py # Vistas (API) │
-├── models.py # Modelos de datos │
-├── tests.py # Pruebas │
+│── prueba_tecnica/ # Configuración principal de Django
+│ ├── settings.py # Configuración global del proyecto
+│ ├── urls.py # Enrutamiento principal
+│ ├── wsgi.py # Servidor WSGI
+│ ├── asgi.py # Servidor ASGI
+│── conversion/ # Aplicación principal
+│ ├── migrations/ # Migraciones de base de datos
+│ ├── serializer.py # Serializadores DRF
+│ ├── urls.py # Rutas de la API
+│ ├── views.py # Vistas (API)
+│ ├── models.py # Modelos de datos
+│ ├── tests.py # Pruebas
 │── manage.py # Script principal de Django
 │── requirements.txt # Dependencias del proyecto
 │── README.md # Documentación del proyecto
@@ -70,7 +70,7 @@ class ExchangeRate(models.Model):
 
 ## Características
 
- Gestión de monedas (`Currency`).  
+Gestión de monedas (`Currency`).  
  Gestión de tasas de cambio (`ExchangeRate`).  
  API documentada con **DRF Spectacular** (Swagger y ReDoc).  
  Base de datos en **PostgreSQL**.  
