@@ -31,10 +31,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-=33)qgs74b1y6*=kne1g3qp)zwsupf1b&#^9ij=s$@j33zq8vy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','https://pruebatecnica-h46m.onrender.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','pruebatecnica-h46m.onrender.com']
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://pruebatecnica-h46m.onrender.com"
+]
 
 # Configuración para archivos estáticos
 STATIC_URL = '/static/'
@@ -145,4 +148,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://pruebatecnica-h46m.onrender.com']
+
