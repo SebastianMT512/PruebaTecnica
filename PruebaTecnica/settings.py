@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-=33)qgs74b1y6*=kne1g3qp)zwsupf1b&#^9ij=s$@j33zq8vy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','https://pruebatecnica-sgak.onrender.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','https://pruebatecnica-h46m.onrender.com']
 
 
 # Configuración para archivos estáticos
@@ -144,3 +144,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CSRF_TRUSTED_ORIGINS = ['https://pruebatecnica-h46m.onrender.com']
