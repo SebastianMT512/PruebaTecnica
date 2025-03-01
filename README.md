@@ -15,7 +15,7 @@ Permite gestionar monedas y tasas de cambio mediante una API RESTful.
  **Autenticación:** Django Default Auth  
  **Entorno Virtual:** Python `venv`  
  **ORM:** Django ORM  
- **Pruebas:** `unittest` con `APITestCase`
+ **Despliegue:** Render
 
 ---
 
